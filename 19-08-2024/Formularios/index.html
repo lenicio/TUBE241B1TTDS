@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <form>
+        <label for="input-email">Informe o seu e-mail: </label>
+        <input type="email" name="input-email" id="input-email" placeholder="E-mail">
+        <br>
+
+
+        <label for="input-idade">Informe sua idade:</label>
+        <input type="number" name="input-idade" id="input-idade" min="0" max="120">
+        <br>
+
+
+        <label for="input-estado">Informe seu estado:</label>
+        <select id="input-estado">
+            <option>PB</option>
+            <option>MG</option>
+            <option>BA</option>
+            <option>SP</option>
+        </select>
+        <br>
+
+
+        <label>Informe sua faixa salarial: </label>
+        <input type="radio" name="faixa-salarial" id="ate2500"><label for="ate2500">Até R$2.500,00</label>
+        <input type="radio" name="faixa-salarial" id="ate5000"><label for="ate5000">Até R$5.000,00</label>
+        <input type="radio" name="faixa-salarial" id="acima5000"><label for="acima5000">Acima de R$5.000,00</label>
+        <br>
+
+
+        <label>Informe a quantidade de cachorro que você tem: </label>
+        <input type="radio" name="qtd-cachorro" id="cachorro-ate-2"><label for="cachorro-ate-2">Até 2 cachorros</label>        
+        <input type="radio" name="qtd-cachorro" id="cachorro-nenhum"><label for="cachorro-nenhum">Nenhum</label>        
+        <br>
+
+
+        <label for="mensagem">Deixe sua mensagem:</label>
+        <textarea name="mensagem" id="mensagem"></textarea>
+        <br>
+
+
+        <label for="idade">Informe sua idade: </label>
+        <input type="datetime-local" name="idade" id="idade">
+        <br>
+
+
+        <label>Informe seu genero musical: </label>
+        <input type="checkbox" name="genero" id="rock"><label for="rock">Rock</label>
+        <input type="checkbox" name="genero" id="samba"><label for="samba">Samba</label>
+        <input type="checkbox" name="genero" id="funk"><label for="funk">Funk</label>
+        <input type="checkbox" name="genero" id="sertanejo"><label for="sertanejo">Sertanejo Universitário</label>
+        <br>
+
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
