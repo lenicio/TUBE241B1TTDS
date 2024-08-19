@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    font-size: 26px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    height: 40px;
+}
+
+tfoot {
+    text-align: center;
+    font-weight: bold;
+}
+.horario{
+    text-align: center;
+}
