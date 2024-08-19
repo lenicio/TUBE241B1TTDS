@@ -1,21 +1,33 @@
-body {
-    font-family: sans-serif;
-    font-size: 26px;
-}
-
 table {
-    margin: 0 auto;
+    margin: 20px auto;
     border-collapse: collapse;
 }
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+
+td {
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
 
 th, td {
     height: 40px;
 }
 
-tfoot {
-    text-align: center;
-    font-weight: bold;
+td.horario {
+    background-color: #f2f2f2;
 }
-.horario{
+
+
+tfoot td {
+    background-color: #4CAF50;
+    color: white;
     text-align: center;
+
 }
