@@ -1,0 +1,14 @@
+.passado {
+  background: darkred;
+  color: #fff;
+}
+
+.presente {
+  background-color: darkblue;
+  color: #fff;
+}
+
+.futuro {
+  background-color: darkgreen;
+  color: #fff;
+}
