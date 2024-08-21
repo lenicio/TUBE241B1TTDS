@@ -1,3 +1,23 @@
+#h1 {
+  color: goldenrod;
+}
+
+body {
+  color: darkblue;
+}
+
+h1 {
+  color: purple;
+}
+
+body {
+  color: darkgreen;
+}
+
+
+
+
+
 .passado {
   background: darkred;
   color: #fff;
