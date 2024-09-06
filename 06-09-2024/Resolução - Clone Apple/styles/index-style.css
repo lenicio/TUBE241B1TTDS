@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'SF Pro regular';
+  src: url('./../assets/fonts/SFPRODISPLAYREGULAR.OTF');
+}
+
+:root {
+  --cor-preto: #000;
+  --cor-branco: #fff;
+  --cor-branco-300: #F5F5F7;
+  --cor-cinza-escuro: #1D1D1F;
+  --cor-azul-claro: #0071E3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  /* box-shadow: inset 0 0 0 1px red; */
+}
+
+body {
+  font-family: 'SF Pro regular';
+}
+
+header {
+  background: var(--cor-cinza-escuro);
+}
+
+.img-logo {
+  display: block;
+  width: 25px;
+  padding: 5px 50px;
+}
+
+.banner > h1 {
+  font-size: 36px;
+  padding: 20px 0 10px 0;
+}
+
+.banner > p {
+  font-size: 24px;
+}
+
+.botoes {
+  margin: 10px 0 20px 0;
+}
+
+.banner {
+  background: var(--cor-preto);
+  color: var(--cor-branco);
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid var(--cor-azul-claro);
+  padding: 8px 15px;
+  border-radius: 18px;
+  font-size: 18px;
+}
+
+.btn-principal {
+  background: var(--cor-azul-claro);
+  color: var(--cor-branco);
+}
+
+.btn-comum {
+  background: #000;
+  color: var(--cor-azul-claro);
+}
+
+.img-banner {
+  display: block;
+  margin: 0 auto;
+  width: 450px;
+}
+
+.principal {
+  padding: 20px 60px;
+  background-color: var(--cor-branco-300);
+  margin-top: 35px;
+}
+
+.vendas {
+  display: grid;
+  grid-template-columns: repeat(3, fit-content(100%));
+  justify-content: center;
+  gap: 25px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.btn-comprar {
+  text-decoration: none;
+  margin-left: 10px;
+  color: var(--cor-azul-claro);
+}
