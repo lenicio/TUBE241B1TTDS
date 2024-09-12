@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --menu: #1D055180;
+  --menu-ativo: #1F1534;
+  --titulo-destaque: #89C5CC;
+  --paragrafo: #7D7987;
+  --botao: #69B99D;
+  --branco: #ffffff;
+  --preto: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 48px 120px;
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  font-family: "Mulish", sans-serif;
+  color: var(--menu);
+  font-size: 18px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-link-ativo {
+  color: var(--menu-ativo);
+  font-weight: bold;
+}
+
+.main {
+  display: grid;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+  margin: 60px 0;
+  grid-template-columns: repeat(2, fit-content(100%));
+}
+
+.titulo {
+  font-family: "Mulish", sans-serif;
+  font-weight: normal;
+  font-size: 48px;
+}
+
+.titulo-destaque {
+  color: var(--titulo-destaque);
+  font-weight: bold;
+}
+
+.paragrafo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 40px 0;
+  color: var(--paragrafo);
+}
+
+.botao {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  background: var(--botao);
+  padding: 16px 24px;
+  border-radius: 4px;
+  color: var(--branco);
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--preto);
+}

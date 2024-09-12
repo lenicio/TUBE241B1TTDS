@@ -1,13 +1,35 @@
+
 * {
   margin: 0;
   padding: 0;
+  font-size: 20px;
 }
 
-body {
+
+
+header {
+  background: #555;
   display: flex;
-  border: 1px solid red;
+  padding: 10px 50px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 img {
-  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+
+li {
+  list-style: none;
+  color: #fff;
 }
